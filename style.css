@@ -4,10 +4,24 @@ body {
     max-width: 900px;
     margin: auto;
 }
+.perfil {
+    display: flex;
+    justify-content: center;
+    width: 900px;
+}
 
 .photo {
+    
     border: 1px solid #505055;
     border-radius: 950%;
+}
+.title-name{
+    display: flex;
+    background: red;
+    width: 900px;
+    height: 100px;
+    padding: 10px 30px 60px 100px;
+
 }
 .title, .subtitle, .post_title {
     color:blue;
